@@ -49,11 +49,18 @@ $visitsJson = json_encode($visits);
 <body>
 
   <section class="h-100" style="background-color: #b2b2b2;">
+ 
     <div class="container py-5 h-100">
 
 
       <div id='calendar'></div>
     </div>
+    <div class="d-flex justify-content-center">
+    <button type="submit" style="border-radius: 1rem; background-color:#424649;" type="submit" id="calendar-button" class=" btn btn-primary btn-block mb-4 ">
+    <a class="text-decoration-none text-reset" href="loginSite.php">Przejdź do strony głównej</a>
+  </button>
+    </div>
+
 
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       Tomasz Zieliński K15
